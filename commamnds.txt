@@ -1,0 +1,9 @@
+ go run cmd/my-cli/cli.go ns --url tutorialedge.net
+ 
+ go build cmd/cli.go 
+ 
+ fgrep -rl github.com/urfave/cli *
+ 
+export GOROOT=/home/user/programming/go/go-1.4
+export GOPATH=/home/user/programming/go/packages
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
